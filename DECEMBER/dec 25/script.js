@@ -20,203 +20,238 @@ let soundOn = true
 
 const quiz = [
     {
-        question: 'What is HTML?',
-        options: [
-            "A programming language",
-            "A markup language",
-            "A database",
-            "An OS"
-        ],
-        correct: 1,
+        question: "What is HTML?",
+        options: ["A programming language", "A markup language", "A database", "An OS"],
+        correct: 1
     },
     {
-        question: 'Which is not a JS data type?',
-        options: [
-            "Number",
-            "String",
-            "Boolean",
-            "Float"
-        ],
-        correct: 3,
+        question: "Which is not a JavaScript data type?",
+        options: ["Number", "String", "Boolean", "Float"],
+        correct: 3
     },
     {
         question: "CSS is used for?",
-        options: [
-            "Logic",
-            "Styling",
-            "Database",
-            "Server"
-        ],
+        options: ["Logic", "Styling", "Database", "Server"],
         correct: 1
     },
     {
-        question: "Which language is used to make webpages interactive?",
-        options: [
-            "HTML",
-            "CSS",
-            "JavaScript",
-            "Python"
-        ],
+        question: "Which language makes webpages interactive?",
+        options: ["HTML", "CSS", "JavaScript", "Python"],
         correct: 2
     },
     {
-        question: "Which HTML tag is used to create a hyperlink?",
-        options: [
-            "<link>",
-            "<a>",
-            "<href>",
-            "<url>"
-        ],
+        question: "Which HTML tag creates a hyperlink?",
+        options: ["<link>", "<a>", "<href>", "<url>"],
         correct: 1
     },
     {
-        question: "Which property is used to change text color in CSS?",
-        options: [
-            "font-color",
-            "text-color",
-            "color",
-            "background-color"
-        ],
+        question: "Which CSS property changes text color?",
+        options: ["font-color", "text-color", "color", "background-color"],
         correct: 2
     },
     {
-        question: "Which symbol is used for IDs in CSS?",
-        options: [
-            "#",
-            ".",
-            "*",
-            "@"
-        ],
+        question: "Which symbol represents ID in CSS?",
+        options: ["#", ".", "*", "@"],
         correct: 0
     },
     {
-        question: "Which HTML element is used for the largest heading?",
-        options: [
-            "<head>",
-            "<h6>",
-            "<h1>",
-            "<header>"
-        ],
+        question: "Which HTML tag is the largest heading?",
+        options: ["<head>", "<h6>", "<h1>", "<header>"],
         correct: 2
     },
     {
-        question: "Which JavaScript keyword declares a constant?",
-        options: [
-            "var",
-            "const",
-            "let",
-            "static"
-        ],
+        question: "Which keyword declares a constant in JS?",
+        options: ["var", "const", "let", "static"],
         correct: 1
     },
     {
-        question: "What does DOM stand for?",
-        options: [
-            "Document Object Model",
-            "Data Object Model",
-            "Document Oriented Method",
-            "Dynamic Object Model"
-        ],
+        question: "DOM stands for?",
+        options: ["Document Object Model", "Data Object Model", "Document Oriented Method", "Dynamic Object Model"],
         correct: 0
     },
     {
-        question: "Which HTML tag is used to insert an image?",
-        options: [
-            "<img>",
-            "<image>",
-            "<src>",
-            "<picture>"
-        ],
+        question: "Which tag inserts an image?",
+        options: ["<img>", "<image>", "<src>", "<picture>"],
         correct: 0
     },
     {
-        question: "Which CSS property is used to make text bold?",
-        options: [
-            "font-weight",
-            "text-style",
-            "font-style",
-            "text-weight"
-        ],
+        question: "Which CSS property makes text bold?",
+        options: ["font-weight", "text-style", "font-style", "text-weight"],
         correct: 0
     },
     {
-        question: "Which method is used to select an element by ID in JavaScript?",
-        options: [
-            "getElementByClassName()",
-            "getElementByTagName()",
-            "getElementById()",
-            "querySelectorAll()"
-        ],
+        question: "Which JS method selects an element by ID?",
+        options: ["getElementByClassName()", "getElementByTagName()", "getElementById()", "querySelectorAll()"],
         correct: 2
     },
     {
-        question: "Which HTML tag is used to create an unordered list?",
-        options: [
-            "<ol>",
-            "<ul>",
-            "<li>",
-            "<list>"
-        ],
+        question: "Which tag creates an unordered list?",
+        options: ["<ol>", "<ul>", "<li>", "<list>"],
         correct: 1
     },
     {
-        question: "Which CSS property controls the space inside an element?",
-        options: [
-            "margin",
-            "padding",
-            "border",
-            "spacing"
-        ],
+        question: "Which CSS property controls inner spacing?",
+        options: ["margin", "padding", "border", "spacing"],
         correct: 1
     },
     {
-        question: "Which JavaScript operator is used for strict equality?",
-        options: [
-            "=",
-            "==",
-            "===",
-            "!=="
-        ],
+        question: "Which operator is strict equality?",
+        options: ["=", "==", "===", "!=="],
         correct: 2
     },
     {
-        question: "Which HTML tag is used to create a table row?",
-        options: [
-            "<tr>",
-            "<td>",
-            "<table>",
-            "<row>"
-        ],
+        question: "Which tag creates a table row?",
+        options: ["<tr>", "<td>", "<table>", "<row>"],
         correct: 0
     },
     {
-        question: "Which CSS property is used to change the background color?",
-        options: [
-            "background",
-            "background-color",
-            "color",
-            "bgcolor"
-        ],
+        question: "Which property changes background color?",
+        options: ["background", "background-color", "color", "bgcolor"],
         correct: 1
     },
     {
-        question: "Which JavaScript function converts a string to a number?",
-        options: [
-            "parseInt()",
-            "toNumber()",
-            "Numberify()",
-            "convertNumber()"
-        ],
+        question: "Which JS function converts string to number?",
+        options: ["parseInt()", "toNumber()", "Numberify()", "convertNumber()"],
         correct: 0
     },
     {
-        question: "Which HTML tag is used to create a checkbox?",
-        options: [
-            "<input type='checkbox'>",
-            "<checkbox>",
-            "<check>",
-            "<input type='check'>"
-        ],
+        question: "Which tag creates a checkbox?",
+        options: ["<input type='checkbox'>", "<checkbox>", "<check>", "<input type='check'>"],
+        correct: 0
+    },
+    {
+        question: "Which HTML tag creates a paragraph?",
+        options: ["<p>", "<para>", "<text>", "<paragraph>"],
+        correct: 0
+    },
+    {
+        question: "Which CSS property aligns text?",
+        options: ["align", "text-align", "position", "float"],
+        correct: 1
+    },
+    {
+        question: "Which keyword declares a variable with block scope?",
+        options: ["var", "let", "const", "define"],
+        correct: 1
+    },
+    {
+        question: "Which HTML tag is used for line break?",
+        options: ["<lb>", "<br>", "<break>", "<line>"],
+        correct: 1
+    },
+    {
+        question: "Which CSS unit is relative?",
+        options: ["px", "cm", "em", "mm"],
+        correct: 2
+    },
+    {
+        question: "Which JS method prints to console?",
+        options: ["print()", "log()", "console.log()", "write()"],
+        correct: 2
+    },
+    {
+        question: "Which HTML attribute gives image path?",
+        options: ["href", "src", "alt", "path"],
+        correct: 1
+    },
+    {
+        question: "Which CSS property hides overflow content?",
+        options: ["display", "visibility", "overflow", "hidden"],
+        correct: 2
+    },
+    {
+        question: "Which symbol is used for class selector?",
+        options: ["#", ".", "*", "%"],
+        correct: 1
+    },
+    {
+        question: "Which HTML tag creates a button?",
+        options: ["<btn>", "<button>", "<input>", "<click>"],
+        correct: 1
+    },
+    {
+        question: "Which JS loop runs at least once?",
+        options: ["for", "while", "do...while", "foreach"],
+        correct: 2
+    },
+    {
+        question: "Which CSS property changes font?",
+        options: ["font-style", "font-family", "font-weight", "text-style"],
+        correct: 1
+    },
+    {
+        question: "Which HTML tag contains metadata?",
+        options: ["<body>", "<meta>", "<head>", "<title>"],
+        correct: 2
+    },
+    {
+        question: "Which JS keyword is used for conditions?",
+        options: ["if", "for", "loop", "check"],
+        correct: 0
+    },
+    {
+        question: "Which CSS property controls element position?",
+        options: ["float", "display", "position", "align"],
+        correct: 2
+    },
+    {
+        question: "Which HTML tag creates an ordered list?",
+        options: ["<ul>", "<ol>", "<li>", "<list>"],
+        correct: 1
+    },
+    {
+        question: "Which JS function shows popup message?",
+        options: ["prompt()", "confirm()", "alert()", "message()"],
+        correct: 2
+    },
+    {
+        question: "Which CSS property makes element invisible but keeps space?",
+        options: ["display:none", "visibility:hidden", "opacity:0", "hidden"],
+        correct: 1
+    },
+    {
+        question: "Which HTML input type is used for password?",
+        options: ["text", "hidden", "password", "secure"],
+        correct: 2
+    },
+    {
+        question: "Which JS method adds element to array end?",
+        options: ["push()", "pop()", "shift()", "unshift()"],
+        correct: 0
+    },
+    {
+        question: "Which CSS property creates shadow?",
+        options: ["box-shadow", "text-shadow", "shadow", "border-shadow"],
+        correct: 0
+    },
+    {
+        question: "Which HTML tag is used for audio?",
+        options: ["<sound>", "<mp3>", "<audio>", "<music>"],
+        correct: 2
+    },
+    {
+        question: "Which JS operator is logical AND?",
+        options: ["&", "&&", "|", "||"],
+        correct: 1
+    },
+    {
+        question: "Which CSS property rounds corners?",
+        options: ["corner-radius", "border-round", "border-radius", "radius"],
+        correct: 2
+    },
+    {
+        question: "Which HTML tag is semantic?",
+        options: ["<div>", "<span>", "<section>", "<b>"],
+        correct: 2
+    },
+    {
+        question: "Which JS event triggers on button click?",
+        options: ["onhover", "onpress", "onclick", "onload"],
+        correct: 2
+    },
+    {
+        question: "Which CSS property controls layout direction?",
+        options: ["flex-direction", "align-items", "justify-content", "direction"],
         correct: 0
     }
 ];
