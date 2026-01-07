@@ -1,0 +1,102 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+body {
+    background-color: rgb(72, 163, 0, 0.07);
+    margin: 0;
+}
+
+.flexbox {
+    display: flex;
+}
+
+.heading {
+    height: 20vh;
+    font-weight: 700;
+    font-size: 63px;
+    color: green;
+    text-align: center;
+    margin-top: 30px;
+}
+
+
+.heading span {
+    color: rgb(122, 51, 51);
+}
+
+
+.hero {
+    height: 100vh;
+    width: 43vw;
+    background-color: rgb(255, 255, 255);
+    border-radius: 15px;
+    margin: auto;
+    margin-bottom: 40px;
+    padding: 50px;
+    box-shadow: 0px 0px 10px rgb(213, 213, 213);
+}
+
+
+.hero_a {
+    font-size: 25px;
+    align-items: center;
+}
+
+.hero_a img {
+    width: 50px;
+}
+
+progress {
+    width: 95%;
+    height: 50px;
+}
+
+.message {
+    height: 20px;
+    font-size: 11px;
+    color: red;
+}
+
+.fill_box {
+    width: 95%;
+    height: 70px;
+    border-radius: 15px;
+    box-shadow: 0px 0px 5px rgb(213, 213, 213);
+    margin-top: 50px;
+    padding: 20px;
+}
+
+.checkbox {
+    appearance: none;
+    width: 23px;
+    margin-right: 20px;
+    border-radius: 50%;
+    border: 2px solid rgb(176, 175, 175);
+    cursor: pointer;
+}
+
+.checkbox:checked {
+    background-color: rgb(31, 201, 31);
+}
+
+.entr_goal {
+    border: none;
+    outline: none;
+    font-size: 16px;
+}
+
+.move_line {
+    margin: 45px;
+    text-align: center;
+    font-size: 18px;
+}
+
+.end_line {
+    margin: 45px;
+    text-align: center;
+    font-size: 11px;
+    color: grey;
+}

@@ -1,0 +1,21 @@
+#css-image {
+    border: 4px solid green;
+}
+
+[alt="javascript roadmap"] {
+    border: 4px solid hotpink;
+}
+p b{
+    display:none
+
+}
+
+.PINK{
+    color: rgb(248, 111, 138);
+}
+#loda{
+    color: rgb(255, 251, 0);
+}
+h2[procodrr="akash"] {
+  color: red;
+}

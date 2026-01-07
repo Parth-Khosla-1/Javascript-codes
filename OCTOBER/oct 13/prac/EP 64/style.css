@@ -1,0 +1,68 @@
+h1 {
+    background-color: brown;
+}
+
+.container {
+    color: green;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+}
+
+.card {
+    width: 100px;
+    height: 120px;
+    background-color: pink;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 4px;
+    font-size: 36px;
+}
+
+.add-card {
+    cursor: pointer;
+    background-color: cadetblue;
+    color: black;
+    position: absolute;
+    bottom: 33px;
+    right: 32px;
+    border-radius: 100%;
+    height: 50px;
+    width: 50px;
+    line-height: 10px;
+    /* cursor:pointer */
+
+}
+
+
+.button1-style {
+    width: 100px;
+    height: 120px;
+    background-color: pink;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 4px;
+    font-size: 36px;
+}
+.button2-style {
+    width: 100px;
+    height: 120px;
+    background-color: rgb(104, 32, 248);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 4px;
+    font-size: 30px;
+}
+
+
+.scroll-wheel{
+       width: 200px;
+    height: 200px;
+    background-color: rgb(212, 58, 94);
+    display: flex;
+    border-radius: 4px;
+    font-size: 30px;
+}

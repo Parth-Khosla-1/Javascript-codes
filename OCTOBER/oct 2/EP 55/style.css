@@ -1,0 +1,23 @@
+#css-image {
+    /* border: 4px solid green;/ */
+}
+
+.css-image {
+    border: 4px solid green;
+}
+
+[alt="javascript roadmap"] {
+    /* border: 4px solid hotpink; */
+}
+
+[procodrr="akash"] {
+    /* color: orangered; */
+  
+}
+.green-link{
+      font-size: 50px;
+    text-decoration: none;
+    color: rgb(12, 139, 0);
+}
+
+.hidden { display: none; }

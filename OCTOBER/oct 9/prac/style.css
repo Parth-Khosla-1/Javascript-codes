@@ -1,0 +1,49 @@
+h1{
+    background-color: rgb(239, 89, 2);
+}
+.container {
+    color: green;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+}
+
+
+
+.clickMe{
+    height: 50px;
+    width: 50px;
+    background-color: chocolate;
+    margin: 20px;
+    text-align: center;
+    cursor: pointer;
+}
+
+h2{
+    background-color: hotpink;
+    cursor: pointer;
+}
+
+.Btn{
+    height: 100px;
+    width: 100px;
+    background-color: chocolate;
+    margin: 20px;
+    text-align: center;
+    cursor: pointer;
+}
+
+
+
+.card {
+    width: 100px;
+    height: 120px;
+    background-color: pink;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 4px;
+    font-size: 36px;
+    margin: 20px;
+    cursor: pointer;
+}
