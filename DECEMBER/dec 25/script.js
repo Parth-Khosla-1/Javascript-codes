@@ -245,6 +245,22 @@ const quiz = [
         correct: 2
     },
     {
+        question: "Which HTML tag is used to embed a video?",
+        options: ["<media>", "<movie>", "<video>", "<embed>"],
+        correct: 2
+    },
+    {
+        question: "Which CSS property is used to center items horizontally in flexbox?",
+        options: ["align-items", "justify-content", "text-align", "flex-center"],
+        correct: 1
+    },
+    {
+        question: "Which JavaScript method removes the last element from an array?",
+        options: ["pop()", "push()", "shift()", "remove()"],
+        correct: 0
+    },
+
+    {
         question: "Which JS event triggers on button click?",
         options: ["onhover", "onpress", "onclick", "onload"],
         correct: 2
