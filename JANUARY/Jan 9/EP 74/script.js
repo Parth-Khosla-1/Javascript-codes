@@ -27,7 +27,7 @@ function makeHttpRequest(method, url) {
 
 
 makeHttpRequest('GET', 'https://dummyjson.com/users', (usersData) => {
-  console.log(userData);
+  console.log(usersData);
   makeHttpRequest('GET', `https://dummyjson.com/posts/user/${usersData.users[0].id}`, (postsData) => {
     console.log(postsData);
     makeHttpRequest('GET', `https://dummyjson.com/comments/post/${postsData.posts[0].id}`, (commentsData) => {
