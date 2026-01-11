@@ -17,9 +17,19 @@ function makeHttpRequest(method, url) {
 
 
 
-makeHttpRequest('GET', 'https://dummyjson.com/users').then((usersData) => {
-    console.log(usersData);
-})
+makeHttpRequest('GET', 'https://dummyjson.com/users')
+    .then((usersData) => {
+        console.log(usersData);
+        return makeHttpRequest('GET', `https://dummyjson.com/posts/user/${usersData.users[0].id}`)
+    }).then((postsData) => {
+        console.log(postsData);
+        return makeHttpRequest('GET', `https://dummyjson.com/comments/post/${postsData.posts[0].id}`)
+    }).then((commentsData) => {
+        console.log(commentsData);
+        return makeHttpRequest('GET', `https://dummyjson.com/users/${commentsData.comments[0].user.id}`)
+    }).then((userData) => {
+        console.log(userData);
+    })
 
 
 // makeHttpRequest('GET', 'https://dummyjson.com/users', (usersData) => {
