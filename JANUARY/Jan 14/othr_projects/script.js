@@ -12,6 +12,34 @@ const projects = [
   why: "I built this to understand how modals work without libraries, including overlay handling, class-based toggling, and user interaction flows.",
   live: "https://js-pro-3.netlify.app/",
   code: "https://github.com/Parth-Khosla-1/Javascript-codes/tree/main/DECEMBER/dec%2024/JS_Pro_ep4_self"
+},
+{
+  title: "Netflix Clone (India)",
+  desc: "A Netflix landing page replica with responsive hero section, sections for devices, offline download, kids profiles, FAQ accordion, and footer.",
+  why: "I built this to practice responsive web design, layout structuring, media queries, and replicating real-world UI components from a professional streaming service.",
+  live: "https://parth-project-2.netlify.app/",
+  code: "https://github.com/Parth-Khosla-1/Javascript-codes/tree/main/PROJECTS(html_and_css)/pro2"
+},
+{
+  title: "Amazon Clone",
+  desc: "A replica of Amazon's homepage featuring navigation bars, search, product sections, and footer layout with responsive design.",
+  why: "I built this to practice creating complex layouts, responsive product sections, navbars, and footers while mimicking a professional e-commerce site.",
+  live: "https://parth-project4.netlify.app/",
+  code: "https://github.com/Parth-Khosla-1/Javascript-codes/tree/main/PROJECTS(html_and_css)/pro4"
+},
+{
+  title: "Paramvah Studios Clone",
+  desc: "A landing page for a film studio featuring a scrolling film reel, upcoming films section, embedded YouTube trailers, and detailed footer with studio info and social links.",
+  why: "I built this to practice advanced layout techniques, horizontal scrolling animations, responsive video embedding, and creating multi-section landing pages similar to professional studio websites.",
+  live: "https://parth-project1.netlify.app/",
+  code: "https://github.com/Parth-Khosla-1/Javascript-codes/tree/main/PROJECTS(html_and_css)/pro5"
+},
+{
+  title: "IKGPTU Amritsar Campus Clone",
+  desc: "A university landing page clone featuring sticky header navigation, announcements section, information panels, event cards, and a structured footer with campus listings.",
+  why: "I built this to practice complex layout structuring, responsive flexbox usage, card designs, and information hierarchy for educational websites.",
+  live: "https://parth-project5.netlify.app/",
+  code: "https://github.com/Parth-Khosla-1/Javascript-codes/blob/main/PROJECTS(html_and_css)/pro6/index.html"
 }
 
 ];
