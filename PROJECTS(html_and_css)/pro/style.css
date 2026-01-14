@@ -1,0 +1,136 @@
+ * {
+            padding: 0;
+            margin: 0;
+        }
+
+        .nav {
+            height: 10vh;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+        }
+
+        .pic img {
+            height: 50px;
+        }
+
+        .content ul {
+            display: flex;
+            gap: 35px;
+        }
+
+        .content li {
+            list-style: none;
+        }
+
+        .content a {
+            text-decoration: none;
+            color: black;
+            cursor: pointer;
+        }
+
+
+        .container {
+            margin-top: 50px;
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+        }
+
+        .mid {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 40px;
+        }
+
+        .one {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-size: 35px;
+        }
+
+        .two {
+            text-align: center;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-size: 25px;
+            max-width: 48vw;
+        }
+
+        .button {
+            background: #00b6d1;
+    padding: 14px 16px;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-weight: 700;
+    margin: 12px 0;
+    cursor: pointer;
+        }
+        
+
+        .main {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            column-gap: 12px;
+            height: 90vh;
+            max-width: 50vw;
+            margin: auto;
+        }
+
+        .card {
+            height: 120px;
+            width: 250px;
+            background-color: #e6e4e4;
+            border-radius: 4px;
+        }
+
+
+        .lang {
+            width: 100%;
+            height: 50%;
+            color: rgb(0, 0, 0);
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .boxes {
+            display: flex;
+            margin-top: 20px;
+            justify-content: space-around;
+        }
+
+        .b1 {
+            background-color: cyan;
+            border-radius: 4px;
+            width: 40%;
+            height: 30px;
+            text-align: center;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        .b1 a {
+            color: aliceblue;
+            text-decoration: none;
+        }
+
+        .b2 {
+            background-color: rgb(107, 237, 107);
+            border-radius: 4px;
+            width: 40%;
+            height: 30px;
+            text-align: center;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        .b2 a {
+            color: aliceblue;
+            text-decoration: none;
+        }
+
+        @media screen and (max-width: 1145px) {
+            .main {
+                grid-template-columns: 1fr;
+            }
+        }

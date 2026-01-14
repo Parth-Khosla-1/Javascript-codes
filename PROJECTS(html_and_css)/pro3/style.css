@@ -1,0 +1,89 @@
+.traffic-light {
+  height: 200px;
+  width: 80px;
+  background-color: rgb(226, 221, 221);
+  border-radius: 20px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  margin: auto;
+ margin-top: 216px;
+}
+
+.light {
+  height: 50px;
+  width: 50px;
+  background-color: grey; 
+  border-radius: 50%;
+}
+
+.red {
+  background-color: black;
+  animation: change1 10s  cubic-bezier(0.42, 0, 0, 1.03) 6.8s 1 forwards;
+}
+
+.yellow {
+  background-color: yellow;
+  animation: change2 7s cubic-bezier(0.42, 0, 0, 1.03) 0s 1 forwards;
+}
+
+.green {
+  background-color: black;
+  animation: change3 14s cubic-bezier(0.42, 0, 0, 1.03) 15.8s 1 forwards;
+}
+
+
+
+@keyframes change1 {
+  0%{
+    background-color: black;
+  }
+  1%{
+    background-color: red;
+  }
+  90%{
+        background-color: red;
+
+  }
+  100%{
+    background-color: black;
+  }
+}
+
+
+
+@keyframes change2 {
+  0%{
+    background-color: black;
+  }
+  1%{
+    background-color: yellow;
+  }
+  90%{
+        background-color: yellow;
+
+  }
+  100%{
+    background-color: black;
+  }
+}
+
+
+
+@keyframes change3 {
+  0%{
+    background-color: black;
+  }
+  1%{
+    background-color: green;
+  }
+  90%{
+        background-color: green;
+
+  }
+  100%{
+    background-color: black;
+  }
+}

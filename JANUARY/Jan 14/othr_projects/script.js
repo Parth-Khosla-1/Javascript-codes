@@ -3,30 +3,17 @@ const projects = [
     title: "Foodie Hamburger Menu",
     desc: "Responsive hamburger menu using HTML, CSS and JavaScript.",
     why: "To practice responsive UI, DOM manipulation and clean CSS.",
-    live: "#",
-    code: "#"
+    live: "https://js-pro-2.netlify.app/",
+    code: "https://github.com/Parth-Khosla-1/Javascript-codes/tree/main/DECEMBER/dec%2021/JS_Pro_ep_3"
   },
-  {
-    title: "XHR Image Loader",
-    desc: "Loads image from API using XMLHttpRequest.",
-    why: "To understand how browser APIs and async requests work.",
-    live: "#",
-    code: "#"
-  },
-  {
-    title: "Callback Hell Demo",
-    desc: "Shows callback hell and its fix using Promises.",
-    why: "To clearly understand why Promises and async/await exist.",
-    live: "#",
-    code: "#"
-  },
-  {
-    title: "LocalStorage State App",
-    desc: "Persists data even after reload using localStorage.",
-    why: "To understand browser storage and app state.",
-    live: "#",
-    code: "#"
-  }
+ {
+  title: "Newsletter Modal Popup",
+  desc: "A custom modal popup for newsletter subscription with overlay, close actions, and responsive design.",
+  why: "I built this to understand how modals work without libraries, including overlay handling, class-based toggling, and user interaction flows.",
+  live: "https://js-pro-3.netlify.app/",
+  code: "https://github.com/Parth-Khosla-1/Javascript-codes/tree/main/DECEMBER/dec%2024/JS_Pro_ep4_self"
+}
+
 ];
 
 const container = document.getElementById("projectsContainer");

@@ -1,0 +1,422 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amazon.com. Spend less. Smile more.</title>
+    <!-- <link rel="shortcut icon" href="assets/favicon.ico" type="image/x-icon"> -->
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        body {
+            background-color: rgb(216, 216, 216);
+        }
+
+        .nav1 {
+            height: 65px;
+            width: 100%;
+            background-color: rgb(27, 26, 26);
+            display: flex;
+            align-items: center;
+            gap: 2px;
+        }
+
+        .logo img {
+            width: 140px;
+        }
+
+        .address {
+            height: 55px;
+            width: 109px;
+            color: white;
+        }
+
+        .a1 {
+            color: grey;
+            font-weight: 500;
+            width: 95px;
+            margin-left: 16px;
+        }
+
+        .a2 img {
+            width: 25px;
+            height: 21px;
+        }
+
+        .search {
+            display: flex;
+            align-items: center;
+        }
+
+        .inp input {
+            width: 750px;
+            height: 38px;
+            font-size: 15px;
+        }
+
+        .mustard {
+            height: 40px;
+            width: 40px;
+            background-color: #ffa200;
+            border-bottom-right-radius: 4px;
+            border-top-right-radius: 4px;
+        }
+
+        .mustard img {
+            margin-top: 8px;
+            margin-left: 6px;
+        }
+
+        .lang {
+            margin-left: 20px;
+            height: auto;
+            display: flex;
+            font-weight: 600;
+            color: white;
+            align-items: center;
+        }
+
+        .drop {
+            margin-top: 5px;
+        }
+
+        .hello {
+            margin-left: 20px;
+        }
+
+        .hi {
+            color: white;
+
+            font-size: 14px;
+        }
+
+        .account {
+            color: white;
+            font-weight: 600;
+        }
+
+        .accd img {
+            height: 9px;
+            margin-top: 30px;
+        }
+
+        .ro {
+            margin-left: 10px;
+            color: white;
+        }
+
+        .cart {
+            height: auto;
+            margin-left: 20px;
+            color: white;
+            font-weight: 700;
+        }
+
+        .cart img {
+            width: 50px;
+        }
+
+
+
+        .nav2 {
+            height: 40px;
+            width: auto;
+            background-color: #2a2a3e;
+            display: flex;
+            align-items: center;
+            font-size: 16px;
+            font-weight: 500;
+            color: white;
+            gap: 15px;
+        }
+
+        .nav2a {
+            margin-left: 20px;
+        }
+
+
+
+        .main1 {
+            background-image: url(assets/upperbg1.jpg);
+            background-size: contain;
+            background-repeat: no-repeat;
+            background-position: center center;
+            height: calc(100vh - 105px);
+            background-color: rgb(216, 216, 216);
+            /* -webkit-mask-image: linear-gradient(to bottom, black 70%, transparent 100%);
+            mask-image: linear-gradient(to bottom, black 70%, transparent 100%); */
+        }
+
+        .sec1 {
+            display: flex;
+            gap: 60px;
+            justify-content: space-evenly;
+        }
+
+        .first {
+            height: 340px;
+            width: 320px;
+            background-color: rgb(255, 255, 255);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            font-weight: 500;
+            font-size: 21px;
+        }
+
+        .text {
+            font-weight: 600;
+            font-size: 28px;
+        }
+
+        .first img {
+            height: 260px;
+            width: 254px;
+
+        }
+
+        .spacer {
+            height: 280px;
+        }
+
+        .sec2 {
+            display: flex;
+            gap: 60px;
+            justify-content: space-evenly;
+            margin-top: 14px;
+        }
+
+        .second {
+            height: 340px;
+            width: 320px;
+            background-color: rgb(255, 255, 255);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            font-weight: 500;
+            font-size: 21px;
+        }
+
+
+        .second img {
+            height: 260px;
+            width: 254px;
+        }
+
+
+        .back {
+            height: 30px;
+            background-color: #303053;
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: white;
+        }
+
+
+        .footer {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            padding: 30px;
+            text-align: left;
+            background-color: #1f1f36;
+        }
+
+        .footerbox {
+            max-width: 50vw;
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr 1fr;
+            align-items: center;
+            column-gap: 50px;
+            row-gap: 30px;
+        }
+
+        .footer span {
+            color: white;
+            margin-bottom: 30px;
+        }
+
+        .footer a {
+            text-decoration: underline;
+            cursor: pointer;
+            color: white;
+        }
+
+        @media screen and (max-width: 1440px) {
+            .inp input {
+                width: 500px;
+                height: 38px;
+                font-size: 15px;
+            }
+        }
+
+        @media screen and (max-width: 1200px) {
+            .inp input {
+                width: 300px;
+                height: 38px;
+                font-size: 15px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="nav1">
+
+        <div class="logo">
+            <img src="assets/Amazon-Logo.webp" alt="">
+        </div>
+
+        <div class="address">
+            <div class="a1">Deliver to</div>
+            <div class="a2">
+                <img src="assets/Location.png" alt="">
+                <b>India</b>
+            </div>
+        </div>
+
+        <div class="search">
+            <div class="inp">
+                <input type="text" placeholder="Search Amazon">
+            </div>
+            <div class="mustard">
+                <img src="assets/search.png" alt="">
+            </div>
+        </div>
+
+        <div class="lang">
+            <img width="45px" src="assets/american_EN.webp" alt=""> EN
+            <div class="drop">
+                <img height="9" src="assets/down-arrow.png" alt="">
+            </div>
+        </div>
+
+        <div class="hello">
+            <div class="hi">Hello,sign in</div>
+            <div class="account">Accounts & Lists</div>
+        </div>
+        <div class="accd">
+            <img src="assets/down-arrow.png" alt="">
+        </div>
+
+        <div class="ro">
+            <div class="returns">Returns</div>
+            <b>&</b> orders
+        </div>
+
+        <div class="cart">
+            <img src="assets/shopping-cart .png" alt="">
+            Cart
+        </div>
+    </div>
+    <div class="nav2">
+        <div class="nav2a"><img src="assets/menu.png" alt=""></div>
+        <div>All</div>
+        <div>Today's deals</div>
+        <div>Rgistry</div>
+        <div>Prime Video</div>
+        <div>Gift Cards</div>
+        <div>Customer Service</div>
+        <div>Sell</div>
+    </div>
+
+    <div class="main1">
+        <div class="spacer"></div>
+        <div class="sec1">
+            <div class="first A">
+                <div class="text">
+                    Home and Appliances
+                </div>
+                <img src="assets/box1_image.jpg" alt="">
+                see more
+            </div>
+            <div class="first B">
+                <div class="text">
+                    Health & Personal Care
+                </div>
+                <img src="assets/box2_image.jpg" alt="">
+                see more
+            </div>
+            <div class="first C">
+                <div class="text">
+                    Furniture & Hone Decor
+                </div>
+                <img src="assets/box3_image.jpg" alt="">
+                see more
+            </div>
+            <div class="first D">
+                <div class="text">
+                    Electronic Devices
+                </div>
+                <img src="assets/box4_image.jpg" alt="">
+                see more
+            </div>
+        </div>
+
+        <div class="sec2">
+            <div class="second E">
+                <div class="text">
+                    Beauty Picks
+                </div>
+                <img src="assets/box5_image.jpg" alt="">
+                see more
+            </div>
+            <div class="second F">
+                <div class="text">
+                    Pet Supplies
+                </div>
+                <img src="assets/box6_image.jpg" alt="">
+                see more
+            </div>
+            <div class="second G">
+                <div class="text">
+                    Toys-New Arrivals!
+                </div>
+                <img src="assets/box7_image.jpg" alt="">
+                see more
+            </div>
+            <div class="second H">
+                <div class="text">
+                    Discover Fashion Trends
+                </div>
+                <img src="assets/box8_image.jpg" alt="">
+                see more
+            </div>
+        </div>
+        <div class="back">Back to Top</div>
+    <section class="footer">
+        <span>Questions? Call 000-800-919-1694</span>
+        <div class="footerbox">
+            <a href="">Investor Relations</a>
+            <a href="">Jobs</a>
+            <a href="">Ways to Watch</a>
+            <a href="">Terms of Use</a>
+            <a href="">Help Centre</a>
+            <a href="">Account</a>
+            <a href="">Speed Test</a>
+            <a href="">Legal Notices</a>
+            <a href="">Media Centre</a>
+            <a href="">Privacy</a>
+            <a href="">Cookie Preferences</a>
+            <a href="">Corporate</a>
+            <a href="">Contact Us</a>
+            <a href="">Speed Test</a>
+            <a href="">Legal Notices</a>
+            <a href="">Only on Netflix</a>
+        </div>
+    </section>
+    </div>
+    
+</body>
+
+</html>
