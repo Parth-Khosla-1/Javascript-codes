@@ -40,6 +40,13 @@ const projects = [
   why: "I built this to practice complex layout structuring, responsive flexbox usage, card designs, and information hierarchy for educational websites.",
   live: "https://parth-project5.netlify.app/",
   code: "https://github.com/Parth-Khosla-1/Javascript-codes/blob/main/PROJECTS(html_and_css)/pro6/index.html"
+},
+{
+  title: "Heart Beating Animation",
+  desc: "A CSS-only animated heart effect demonstrating scaling and rotation to simulate a heartbeat, with glowing highlights and pseudo-elements for realistic heart shapes.",
+  why: "I built this to practice CSS animations, keyframes, pseudo-elements (::before and ::after), and shape creation using pure CSS without images or JavaScript.",
+  live: "https://parth-project-7.netlify.app/",
+  code: "https://github.com/Parth-Khosla-1/Javascript-codes/tree/main/PROJECTS(html_and_css)/DIL"
 }
 
 ];
