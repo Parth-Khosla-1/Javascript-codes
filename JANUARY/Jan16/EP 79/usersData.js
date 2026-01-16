@@ -1,4 +1,4 @@
-const usersData = [
+export const usersData = [
   {
     id: 1,
     firstName: 'Terry',
@@ -1859,7 +1859,25 @@ const usersData = [
       'Mozilla/5.0 (X11; Linux i686) AppleWebKit/535.11 (KHTML, like Gecko) Chrome/17.0.963.66 Safari/535.11',
   },
 ]
-const myName='Parth'
 
-export default usersData
-export{myName}
+export const myName = 'Anurag Singh'
+
+export default function getFirstUser() {
+    return usersData[0]
+}
+
+console.log('usersssss Dataaaa');
+
+// export default usersData
+
+
+// export { usersData, myName as myNames }
+// export { myName }
+
+
+
+
+// const myName='Parth'
+
+// export default usersData
+// export{myName}
