@@ -1,4 +1,4 @@
-import {usersData,myName as myNames} from "./usersData.js";
+import {usersData,myName} from "./usersData.js";
 
 console.log(usersData);
-console.log(myNames);
+console.log(myName);
