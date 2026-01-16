@@ -574,4 +574,4 @@ const productsData = [
     ],
   },
 ]
-export{productsData}
+export default productsData

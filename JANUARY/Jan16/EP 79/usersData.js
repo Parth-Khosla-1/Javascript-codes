@@ -1861,4 +1861,5 @@ const usersData = [
 ]
 const myName='Parth'
 
-export{usersData,myName}
+export default usersData
+export{myName}
