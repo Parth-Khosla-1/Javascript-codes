@@ -1861,4 +1861,4 @@ const usersData = [
 ]
 const myName='Parth'
 
-export{usersData,myName as myNames}
+export{usersData,myName}
