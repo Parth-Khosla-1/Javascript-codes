@@ -574,3 +574,4 @@ const productsData = [
     ],
   },
 ]
+export{productsData}
