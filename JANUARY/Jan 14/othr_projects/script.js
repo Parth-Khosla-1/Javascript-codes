@@ -17,7 +17,7 @@ const projects = [
   title: "Netflix Clone (India)",
   desc: "A Netflix landing page replica with responsive hero section, sections for devices, offline download, kids profiles, FAQ accordion, and footer.",
   why: "I built this to practice responsive web design, layout structuring, media queries, and replicating real-world UI components from a professional streaming service.",
-  live: "https://parth-project-2.netlify.app/",
+  live: "https://drive.google.com/file/d/1hqLVGnOcOSDzdS5XvV0yj4FOGk7r1SUw/view?usp=drive_link",
   code: "https://github.com/Parth-Khosla-1/Javascript-codes/tree/main/PROJECTS(html_and_css)/pro2"
 },
 {
