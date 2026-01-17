@@ -54,9 +54,14 @@ const projects = [
   why: "I built this project to strengthen my understanding of HTML structure, CSS Flexbox and Grid, responsive design using media queries, and real-world website layout cloning.",
   live: "https://parth-project-06.netlify.app/",
   code: "https://github.com/Parth-Khosla-1/Javascript-codes/tree/main/PROJECTS(html_and_css)/pro"
+},
+{
+  title: "CSS Transform Properties Demo",
+  desc: "A visual demonstration of all major CSS transform properties including translate, scale, rotate, skew, matrix, 3D transforms, perspective, transform-origin, and transform-style.",
+  why: "I built this to deeply understand how CSS transform functions work in both 2D and 3D space, and to practice animations and interactive UI effects using hover-based transformations.",
+  live: "https://neon-puffpuff-e1d20a.netlify.app/",
+  code: ""
 }
-
-
 
 ];
 
