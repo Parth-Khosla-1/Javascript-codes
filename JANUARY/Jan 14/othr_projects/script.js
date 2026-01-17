@@ -24,14 +24,14 @@ const projects = [
   title: "Amazon Clone",
   desc: "A replica of Amazon's homepage featuring navigation bars, search, product sections, and footer layout with responsive design.",
   why: "I built this to practice creating complex layouts, responsive product sections, navbars, and footers while mimicking a professional e-commerce site.",
-  live: "https://parth-project4.netlify.app/",
+  live: "https://parth-project-07.netlify.app/",
   code: "https://github.com/Parth-Khosla-1/Javascript-codes/tree/main/PROJECTS(html_and_css)/pro4"
 },
 {
   title: "Paramvah Studios Clone",
   desc: "A landing page for a film studio featuring a scrolling film reel, upcoming films section, embedded YouTube trailers, and detailed footer with studio info and social links.",
   why: "I built this to practice advanced layout techniques, horizontal scrolling animations, responsive video embedding, and creating multi-section landing pages similar to professional studio websites.",
-  live: "https://parth-project1.netlify.app/",
+  live: "https://parth-project-08.netlify.app/",
   code: "https://github.com/Parth-Khosla-1/Javascript-codes/tree/main/PROJECTS(html_and_css)/pro5"
 },
 {
