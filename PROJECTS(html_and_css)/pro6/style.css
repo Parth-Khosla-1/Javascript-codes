@@ -79,7 +79,7 @@
  }
 
  .imgsec {
-     background-image: url(assets/bg1.jpg);
+     background-image: url(./assets/bg.jpg);
      background-repeat: no-repeat;
      background-size: contain;
      height: 455px;
