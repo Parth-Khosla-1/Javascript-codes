@@ -38,7 +38,7 @@ const projects = [
   title: "IKGPTU Amritsar Campus Clone",
   desc: "A university landing page clone featuring sticky header navigation, announcements section, information panels, event cards, and a structured footer with campus listings.",
   why: "I built this to practice complex layout structuring, responsive flexbox usage, card designs, and information hierarchy for educational websites.",
-  live: "https://parth-project5.netlify.app/",
+  live: "https://parth-project-09.netlify.app/",
   code: "https://github.com/Parth-Khosla-1/Javascript-codes/blob/main/PROJECTS(html_and_css)/pro6/index.html"
 },
 {
