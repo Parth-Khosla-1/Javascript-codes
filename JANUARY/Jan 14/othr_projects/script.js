@@ -3,14 +3,14 @@ const projects = [
     title: "Foodie Hamburger Menu",
     desc: "Responsive hamburger menu using HTML, CSS and JavaScript.",
     why: "To practice responsive UI, DOM manipulation and clean CSS.",
-    live: "https://js-pro-2.netlify.app/",
+    live: "https://parth-project-02.netlify.app/",
     code: "https://github.com/Parth-Khosla-1/Javascript-codes/tree/main/DECEMBER/dec%2021/JS_Pro_ep_3"
   },
  {
   title: "Newsletter Modal Popup",
   desc: "A custom modal popup for newsletter subscription with overlay, close actions, and responsive design.",
   why: "I built this to understand how modals work without libraries, including overlay handling, class-based toggling, and user interaction flows.",
-  live: "https://js-pro-3.netlify.app/",
+  live: "https://parth-project-3.netlify.app/",
   code: "https://github.com/Parth-Khosla-1/Javascript-codes/tree/main/DECEMBER/dec%2024/JS_Pro_ep4_self"
 },
 {
@@ -45,9 +45,18 @@ const projects = [
   title: "Heart Beating Animation",
   desc: "A CSS-only animated heart effect demonstrating scaling and rotation to simulate a heartbeat, with glowing highlights and pseudo-elements for realistic heart shapes.",
   why: "I built this to practice CSS animations, keyframes, pseudo-elements (::before and ::after), and shape creation using pure CSS without images or JavaScript.",
-  live: "https://parth-project-7.netlify.app/",
+  live: "https://parth-project-5.netlify.app/",
   code: "https://github.com/Parth-Khosla-1/Javascript-codes/tree/main/PROJECTS(html_and_css)/DIL"
+},
+{
+  title: "UltraEdit Download Page Clone",
+  desc: "A responsive clone of the UltraEdit download page built using HTML and CSS. The website features a navigation bar, hero section, call-to-action buttons, and a grid-based layout for downloading different language versions of the software.",
+  why: "I built this project to strengthen my understanding of HTML structure, CSS Flexbox and Grid, responsive design using media queries, and real-world website layout cloning.",
+  live: "https://parth-project-06.netlify.app/",
+  code: "https://github.com/Parth-Khosla-1/Javascript-codes/tree/main/PROJECTS(html_and_css)/pro"
 }
+
+
 
 ];
 
